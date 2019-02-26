@@ -1139,6 +1139,7 @@ ul.grid li a,ul.grid li img {
  **************************************************/
 .contact-office {
 	background: #fff url('../img/contact-bg-1.png') no-repeat;
+	/*float: right;*/
 }
 
 .contact-lab {
@@ -1197,4 +1198,8 @@ ul.timeline .date {
 	left: 0;
 }
 
+}
+/*--------------------*/
+.list-unstyled li {
+	font-size: 18px;
 }
