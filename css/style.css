@@ -32,7 +32,8 @@ body {
 	font-size: 16px;
 	font-family: 'Lato', sans-serif;
 	font-weight: 400;
-	background: #4D4D4D;
+	/*background: #4D4D4D;*/
+	background: #794065;
 }
 
 a,a:hover,a:focus {
@@ -55,9 +56,9 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
 	z-index: 1002;
 	font-size: 30px;
 	padding: 2px 10px;
-	/*background: #2b2b2b;*/
-	/*background: rgb(71,0,53);*/
-	background: rgb(150,22,81);
+	background: #2b2b2b;
+	/*background: #794065;*/
+	/*background: rgb(150,22,81);*/
 	display: block;
 	width: 50px;
 	height: 50px;
@@ -80,8 +81,8 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
 	user-select: none;
 	width: 250px;
 	/*background: #2b2b2b;*/
-	/*background:rgb(71,0,53);*/
-	background: rgb(150,22,81);
+	background:#794065;
+	/*background: rgb(150,22,81);*/
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -197,7 +198,7 @@ ul#navigation li {
 	clear: both;
 	/*background: #303030;*/
 	/*background: rgb(71,0,53);*/
-	background: rgb(150,22,81);
+	background: #794065;
 	border-top: 1px solid #373737;
 	border-bottom: 1px solid #373737;
 	/*border-bottom: 1px solid rgb(71,0,53);*/
@@ -217,7 +218,8 @@ ul#navigation li a {
 
 ul#navigation li:hover,ul#navigation li:focus {
 	/*background: #363636;*/
-	background: rgb(208,0,102);
+	background: :#794065;
+	/*background: rgb(208,0,102);*/
 }
 
 ul#navigation li:hover a,ul#navigation li:focus a {
@@ -237,13 +239,14 @@ ul#navigation li.currentmenu a {
 }*/
 
 ul#navigation li.currentmenu {
-	/*background: #363636;*/
+	background: #363636;
+
 	/*background: rgb(110,0,54);*/
-	background: rgb(224,46,83);
-	/*border-top: 1px solid #3d3d3d;*/
-	border-top: 1px solid rgb(255,255,255);
-	/*border-bottom: 1px solid #252525;*/
-	border-bottom: 1px solid rgb(255,255,255);
+	/*background: rgb(224,46,83);*/
+	border-top: 1px solid #3d3d3d;
+	/*border-top: 1px solid rgb(255,255,255);*/
+	border-bottom: 1px solid #252525;
+	/*border-bottom: 1px solid rgb(255,255,255);*/
 }
 
 
@@ -269,9 +272,10 @@ ul#navigation li .icon {
 	bottom: 0;
 	left: 0;
 	width: 100%;
-	/*background: #2b2b2b;*/ /* #202020;*/
-	/*background: rgb(71,0,53);*/
-	background: rgb(150,22,81);
+	/*background: #2b2b2b; /* #202020;*/
+
+	background: #794065;
+	/*background: rgb(150,22,81);*/
 	/* border-top: 1px solid #1A1A1A; */
 	width: 250px;
 	z-index: 2;
@@ -299,6 +303,7 @@ ul#navigation li .icon {
 
 .social-icons a:hover,.social-icons a:focus {
 	color: #fff;
+	/*color: #794065;*/
 }
 
 .social-icons i {

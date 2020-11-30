@@ -1,5 +1,6 @@
 ul#navigation li.external:hover .icon, ul#navigation li.currentmenu .icon{
-	color: #9e1b34;
+	/*color: #9e1b34;*/
+	color: #DB7093;
 }
 .ul-boxed li {
 	border-left-color:#9e1b34;
